@@ -75,20 +75,22 @@ To set up the demo:
    - Clone the project
    - (Optional) Rename if you wish
 
-2. Create/Connect a Firebase Project:
+2. Create/Connect a Firebase Project in FlutterFlow:
 
    - In your new FlutterFlow project, go to App Settings > Firebase (under Project Setup)
    - If you already have a Firebase project created, type in the project id and Click "Connect"
      - **Important:** The project ID must match what you set in `.firebaserc`
    - If you do not have a Firebase project created, let FlutterFlow create one for you.
-     - **Important:** Once created, copy the project ID and put it in `.firebaserc` (by replacing `<YOUR-FIREBASE-PROJECT-ID>` with the project id)
+     - **Important:** Once created, copy the project ID and put it in `.firebaserc` (by replacing `<YOUR-FIREBASE-PROJECT-ID>` with the project id) and click "Generate Config Files".
 
-3. Make sure to have all the Firebase Services up and running
+3. Make sure to have all the Firebase Services setup in your Firebase Project.
    - Authentication
      - Enable Email/Password as sign-in provider
    - Firestore
    - Storage
+     - You will need to upgrade your project to use this service. 
    - Cloud Functions
+     - You will need to upgrade your project to use this service.  
 
 ### 4. FlutterFlow Configuration - Manual Setup (If you have not cloned the Demo App)
 
