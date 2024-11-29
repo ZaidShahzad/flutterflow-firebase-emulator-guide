@@ -173,27 +173,6 @@ firebase emulators:start
    - Storage operations
    - Function calls
 
-## Demo App Features
-
-The demo app provides examples of:
-
-1. Authentication:
-
-   - Email Sign Up
-   - Email Sign In
-   - Sign Out
-
-2. Firestore:
-
-   - Create/Read documents
-
-3. Storage:
-
-   - File (Image) Uploading
-
-4. Cloud Functions:
-   - Invoking "generateRandomNumber" locally ran cloud function and retreiving a value in the UI
-
 ## Troubleshooting
 
 ### Common Setup Issues
