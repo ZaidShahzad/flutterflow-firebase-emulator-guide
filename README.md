@@ -22,8 +22,9 @@ This repository offers a preconfigured Firebase project that works with the demo
 ## Prerequisites
 
 - FlutterFlow Desktop Application (Windows/Mac)
+- Must be on a paid FlutterFlow plan that offers "Code Download"
 - Firebase CLI installed on your computer
-- Node.js and npm installed
+- Node.js (v20) and npm installed
 - Git (for cloning this repository)
 
 ## Quick Start
@@ -159,7 +160,7 @@ firebase emulators:start
 
 1. Open FlutterFlow Desktop Application
 2. Open your project
-3. Run the app using "Local Run" feature
+3. Run the app using "Local Run" feature (remember, you must be on a paid flutterflow plan that offers "Code Download")
 
    - If this is your first time using this feature, you will most likely have to do a initial setup. Go through this setup and then follow the directions below.
 
