@@ -92,7 +92,9 @@ To set up the demo:
    - Cloud Functions
      - You will need to upgrade your project to use this service.
        
-4. In FlutterFlow, App Settings > Firebase, Click "Generate Config Files" and deploy the rules for Firebase Storage.
+4. In FlutterFlow, go to App Settings > Firebase, Click "Generate Config Files" and deploy the rules for Firebase Storage.
+5. In FlutterFlow, go to API Calls.
+   - Click the `generateRandomNumberAPI` API call and replace `<YOUR-FIREBASE-PROJECT-ID>` with your firebase project id and click "save".
 
 ### 4. FlutterFlow Configuration - Manual Setup (If you have not cloned the Demo App)
 
