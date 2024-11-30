@@ -81,7 +81,7 @@ To set up the demo:
    - If you already have a Firebase project created, type in the project id and Click "Connect"
      - **Important:** The project ID must match what you set in `.firebaserc`
    - If you do not have a Firebase project created, let FlutterFlow create one for you.
-     - **Important:** Once created, copy the project ID and put it in `.firebaserc` (by replacing `<YOUR-FIREBASE-PROJECT-ID>` with the project id) and click "Generate Config Files".
+     - **Important:** Once created, copy the project ID and put it in `.firebaserc` (by replacing `<YOUR-FIREBASE-PROJECT-ID>` with the project id).
 
 3. Make sure to have all the Firebase Services setup in your Firebase Project.
    - Authentication
@@ -90,7 +90,9 @@ To set up the demo:
    - Storage
      - You will need to upgrade your project to use this service. 
    - Cloud Functions
-     - You will need to upgrade your project to use this service.  
+     - You will need to upgrade your project to use this service.
+       
+4. In FlutterFlow, App Settings > Firebase, Click "Generate Config Files" and deploy the rules for Firebase Storage.
 
 ### 4. FlutterFlow Configuration - Manual Setup (If you have not cloned the Demo App)
 
